@@ -19,6 +19,7 @@
                 "Pi 2",
                 "Pi Zero Rev",
                 "Pi Zero W Rev",
+                "Pi Zero 2 W",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
                 "Pi 3"
@@ -216,6 +217,7 @@
                 "Pi 2",
                 "Pi Zero Rev",
                 "Pi Zero W Rev",
+                "Pi Zero 2 W",
                 "Pi Compute Module",
                 "Pi 3",
                 "Pi 4"
@@ -244,6 +246,7 @@
             "release_date": "2021-12-12",
             "supported_hex_revisions": "2082,20d3,20e0,3111,3112",
             "supported_models": [
+                "Pi Zero 2",
                 "Pi Compute Module 3",
                 "Pi Compute Module 4",
                 "Pi 3",
@@ -258,6 +261,38 @@
             "username": "root",
             "version": "v7.9.3"
         },
+
+        {
+            "description": "Highly optimized minimal Debian OS (ARMv8 64-bit Bullseye)",
+            "download_size": 149126486,
+            "group": "Minimal",
+            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/DietPi_64.png",
+            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/marketing.tar",
+            "nominal_size": 1628,
+            "os_info": "http://raw.githubusercontent.com/anspn/pinn-os/master/DietPi_64/os.json",
+            "os_name": "DietPi_64",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/partition_setup.sh",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/partitions.json",
+            "password": "dietpi",
+            "release_date": "2023-07-01",
+            "supported_hex_revisions": "2082,20d3,20e0,3111,3112",
+            "supported_models": [
+                "Pi Zero 2",
+                "Pi Compute Module 3",
+                "Pi Compute Module 4",
+                "Pi 3",
+                "Pi 4"
+            ],
+            "supports_backup": true,
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/DietPi_64/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/DietPi_64/root.tar.xz"
+            ],
+            "url": "http://dietpi.com/",
+            "username": "root",
+            "version": "v8.19"
+        },
+
         {
             "description": "An optimised Fedora remix which fully supports all RPi2/3 hardware (xfce)",
             "download_size": 844258704,
