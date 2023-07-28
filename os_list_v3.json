@@ -1,6 +1,152 @@
 {
     "os_list": [
         {
+            "description": "Highly optimized minimal Debian OS (ARMv6 32-bit Bullseye)",
+            "download_size": 168662068,
+            "group": "Minimal",
+            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/DietPi.png",
+            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/marketing.tar",
+            "nominal_size": 1628,
+            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/os.json",
+            "os_name": "DietPi",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/partition_setup.sh",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/partitions.json",
+            "password": "dietpi",
+            "release_date": "2021-12-12",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0,3111",
+            "supported_models": [
+                "Pi Model",
+                "Pi 2",
+                "Pi Zero Rev",
+                "Pi Zero W Rev",
+                "Pi Compute Module",
+                "Pi 3",
+                "Pi 4"
+            ],
+            "supports_backup": true,
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/DietPi/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/DietPi/root.tar.xz"
+            ],
+            "url": "http://dietpi.com/",
+            "username": "root",
+            "version": "v7.9.3"
+        },
+        {
+            "description": "batocera.linux, the open source retro gaming console",
+            "download_size": 845268244,
+            "group": "Games",
+            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/batocera_RPi3.png",
+            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/marketing.tar",
+            "nominal_size": 3226,
+            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/os.json",
+            "os_name": "batocera_RPi3",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/partition_setup.sh",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/partitions.json",
+            "password": "linux",
+            "supported_hex_revisions": "2082,20d3,20e0",
+            "supported_models": [
+                "Pi Compute Module 3",
+                "Pi 3"
+            ],
+            "supports_backup": true,
+            "tarballs": [
+                "https://updates.batocera.org/rpi3/stable/last/boot.tar.xz"
+            ],
+            "url": "https://batocera.org/",
+            "username": "root",
+            "version": "latest"
+        },
+        {
+            "description": "A Plex Client for the Raspberry Pi computer",
+            "download_size": 133428380,
+            "group": "Media",
+            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/RasPlex_RPi.png",
+            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/marketing.tar",
+            "nominal_size": 1024,
+            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/os.json",
+            "os_name": "RasPlex_RPi",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/partition_setup.sh",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/partitions.json",
+            "password": "rasplex",
+            "release_date": "2021-10-02",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
+            "supported_models": [
+                "Pi Model",
+                "Pi Compute Module Rev",
+                "Pi Zero Rev",
+                "Pi Zero W Rev"
+            ],
+            "supports_backup": true,
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi/boot.tar.xz"
+            ],
+            "url": "http://www.rasplex.com/",
+            "username": "root",
+            "version": "1.8.0b"
+        },
+        {
+            "description": "batocera.linux, the open source retro gaming console",
+            "download_size": 845268244,
+            "group": "Games",
+            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/batocera_RPi1.png",
+            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/marketing.tar",
+            "nominal_size": 3226,
+            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/os.json",
+            "os_name": "batocera_RPi1",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/partition_setup.sh",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/partitions.json",
+            "password": "linux",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
+            "supported_models": [
+                "Pi Model",
+                "Pi Compute Module Rev",
+                "Pi Zero Rev",
+                "Pi Zero W Rev"
+            ],
+            "supports_backup": true,
+            "tarballs": [
+                "https://updates.batocera.org/rpi1/stable/last/boot.tar.xz"
+            ],
+            "url": "https://batocera.org/",
+            "username": "root",
+            "version": "latest"
+        },
+        {
+            "description": "Volumio is an open source audiophile music player",
+            "download_size": 406274180,
+            "group": "Media",
+            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/Volumio.png",
+            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/marketing.tar",
+            "nominal_size": 2800,
+            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/os.json",
+            "os_name": "Volumio",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/partition_setup.sh",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/partitions.json",
+            "password": "volumio",
+            "release_date": "2022-01-24",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0,3111",
+            "supported_models": [
+                "Pi Model",
+                "Pi 2",
+                "Pi Zero Rev",
+                "Pi Zero W Rev",
+                "Pi Compute Module",
+                "Pi 3",
+                "Pi 4"
+            ],
+            "supports_backup": true,
+            "supports_usb_boot": false,
+            "supports_usb_root": false,
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Volumio/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Volumio/volumio.tar.xz"
+            ],
+            "url": "https://volumio.org/",
+            "username": "volumio",
+            "version": "3.198"
+        },
+        {
             "description": "Security-oriented, lightweight Linux distribution based on musl libc and busybox.",
             "download_size": 39017868,
             "group": "Minimal",
@@ -19,7 +165,6 @@
                 "Pi 2",
                 "Pi Zero Rev",
                 "Pi Zero W Rev",
-                "Pi Zero 2 W",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
                 "Pi 3"
@@ -32,6 +177,63 @@
             "url": "https://alpinelinux.org/",
             "username": "root",
             "version": "3.8.2"
+        },
+        {
+            "description": "Gladys, your home assistant.",
+            "download_size": 672820496,
+            "group": "General",
+            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/Gladys.png",
+            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/marketing.tar",
+            "nominal_size": 3069,
+            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/os.json",
+            "os_name": "Gladys",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/partition_setup.sh",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/partitions.json",
+            "password": "raspberry",
+            "release_date": "2018-03-05",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3",
+            "supported_models": [
+                "Pi Model",
+                "Pi 2",
+                "Pi Zero Rev",
+                "Pi Zero W Rev",
+                "Pi Compute Module Rev",
+                "Pi Compute Module 3",
+                "Pi 3"
+            ],
+            "supports_backup": true,
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Gladys/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Gladys/root.tar.xz"
+            ],
+            "url": "https://gladysproject.com",
+            "username": "pi",
+            "version": "3.8.0-rev2"
+        },
+        {
+            "description": "batocera.linux, the open source retro gaming console",
+            "download_size": 845268244,
+            "group": "Games",
+            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi4/batocera_RPi4.png",
+            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi4/marketing.tar",
+            "nominal_size": 3226,
+            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi4/os.json",
+            "os_name": "batocera_RPi4",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi4/partition_setup.sh",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi4/partitions.json",
+            "password": "linux",
+            "supported_hex_revisions": "3111,3112",
+            "supported_models": [
+                "Pi Compute Module 4",
+                "Pi 4"
+            ],
+            "supports_backup": true,
+            "tarballs": [
+                "https://updates.batocera.org/rpi464/stable/last/boot.tar.xz"
+            ],
+            "url": "https://batocera.org",
+            "username": "root",
+            "version": "latest"
         },
         {
             "description": "Transform your Raspberry into an Amiga",
@@ -66,210 +268,13 @@
             "version": "1.4.1001"
         },
         {
-            "description": "batocera.linux, the open source retro gaming console",
-            "download_size": 845268244,
-            "group": "Games",
-            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/batocera_RPi1.png",
-            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/marketing.tar",
-            "nominal_size": 3226,
-            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/os.json",
-            "os_name": "batocera_RPi1",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/partition_setup.sh",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/partitions.json",
-            "password": "linux",
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
-            "supported_models": [
-                "Pi Model",
-                "Pi Compute Module Rev",
-                "Pi Zero Rev",
-                "Pi Zero W Rev"
-            ],
-            "supports_backup": true,
-            "tarballs": [
-                "https://updates.batocera.org/rpi1/stable/last/boot.tar.xz"
-            ],
-            "url": "https://batocera.org/",
-            "username": "root",
-            "version": "latest"
-        },
-        {
-            "description": "batocera.linux, the open source retro gaming console",
-            "download_size": 845268244,
-            "group": "Games",
-            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/batocera_RPi2.png",
-            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/marketing.tar",
-            "nominal_size": 3226,
-            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/os.json",
-            "os_name": "batocera_RPi2",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/partition_setup.sh",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/partitions.json",
-            "password": "linux",
-            "supported_hex_revisions": "1040,1041",
-            "supported_models": [
-                "Pi 2"
-            ],
-            "supports_backup": true,
-            "tarballs": [
-                "https://updates.batocera.org/rpi2/stable/last/boot.tar.xz"
-            ],
-            "url": "https://batocera.org",
-            "username": "root",
-            "version": "latest"
-        },
-        {
-            "description": "batocera.linux, the open source retro gaming console",
-            "download_size": 845268244,
-            "group": "Games",
-            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/batocera_RPi3.png",
-            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/marketing.tar",
-            "nominal_size": 3226,
-            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/os.json",
-            "os_name": "batocera_RPi3",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/partition_setup.sh",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/partitions.json",
-            "password": "linux",
-            "supported_hex_revisions": "2082,20d3,20e0",
-            "supported_models": [
-                "Pi Compute Module 3",
-                "Pi 3"
-            ],
-            "supports_backup": true,
-            "tarballs": [
-                "https://updates.batocera.org/rpi3/stable/last/boot.tar.xz"
-            ],
-            "url": "https://batocera.org/",
-            "username": "root",
-            "version": "latest"
-        },
-        {
-            "description": "batocera.linux, the open source retro gaming console",
-            "download_size": 845268244,
-            "group": "Games",
-            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi4/batocera_RPi4.png",
-            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi4/marketing.tar",
-            "nominal_size": 3226,
-            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi4/os.json",
-            "os_name": "batocera_RPi4",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi4/partition_setup.sh",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi4/partitions.json",
-            "password": "linux",
-            "supported_hex_revisions": "3111,3112",
-            "supported_models": [
-                "Pi Compute Module 4",
-                "Pi 4"
-            ],
-            "supports_backup": true,
-            "tarballs": [
-                "https://updates.batocera.org/rpi464/stable/last/boot.tar.xz"
-            ],
-            "url": "https://batocera.org",
-            "username": "root",
-            "version": "latest"
-        },
-        {
-            "description": "Transform your Raspberry into a Commodore",
-            "download_size": 437399552,
-            "group": "Games",
-            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Combian/Combian.png",
-            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Combian/marketing.tar",
-            "nominal_size": 2070,
-            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Combian/os.json",
-            "os_name": "Combian",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Combian/partition_setup.sh",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Combian/partitions.json",
-            "password": "1234",
-            "release_date": "2018-09-30",
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3",
-            "supported_models": [
-                "Pi Model",
-                "Pi 2",
-                "Pi Zero Rev",
-                "Pi Zero W Rev",
-                "Pi Compute Module Rev",
-                "Pi Compute Module 3",
-                "Pi 3"
-            ],
-            "supports_backup": true,
-            "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Combian/boot.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Combian/root.tar.xz"
-            ],
-            "url": "https://cmaiolino.wordpress.com/",
-            "username": "root",
-            "version": "2.8.1"
-        },
-        {
-            "description": "Highly optimized minimal Debian OS (ARMv6 32-bit Bullseye)",
-            "download_size": 168662068,
-            "group": "Minimal",
-            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/DietPi.png",
-            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/marketing.tar",
-            "nominal_size": 1628,
-            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/os.json",
-            "os_name": "DietPi",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/partition_setup.sh",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/partitions.json",
-            "password": "dietpi",
-            "release_date": "2021-12-12",
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0,3111",
-            "supported_models": [
-                "Pi Model",
-                "Pi 2",
-                "Pi Zero Rev",
-                "Pi Zero W Rev",
-                "Pi Zero 2 W",
-                "Pi Compute Module",
-                "Pi 3",
-                "Pi 4"
-            ],
-            "supports_backup": true,
-            "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/DietPi/boot.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/DietPi/root.tar.xz"
-            ],
-            "url": "http://dietpi.com/",
-            "username": "root",
-            "version": "v7.9.3"
-        },
-        {
-            "description": "Highly optimized minimal Debian OS (ARMv8 64-bit Bullseye)",
-            "download_size": 122999112,
-            "group": "Minimal",
-            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/DietPi_64.png",
-            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/marketing.tar",
-            "nominal_size": 1628,
-            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/os.json",
-            "os_name": "DietPi_64",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/partition_setup.sh",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/partitions.json",
-            "password": "dietpi",
-            "release_date": "2021-12-12",
-            "supported_hex_revisions": "2082,20d3,20e0,3111,3112",
-            "supported_models": [
-                "Pi Zero 2",
-                "Pi Compute Module 3",
-                "Pi Compute Module 4",
-                "Pi 3",
-                "Pi 4"
-            ],
-            "supports_backup": true,
-            "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/DietPi_64/boot.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/DietPi_64/root.tar.xz"
-            ],
-            "url": "http://dietpi.com/",
-            "username": "root",
-            "version": "v7.9.3"
-        },
-
-        {
             "description": "Highly optimized minimal Debian OS (ARMv8 64-bit Bullseye)",
             "download_size": 149126486,
             "group": "Minimal",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/DietPi_64.png",
             "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/marketing.tar",
             "nominal_size": 1628,
-            "os_info": "http://raw.githubusercontent.com/anspn/pinn-os/master/DietPi_64/os.json",
+            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/os.json",
             "os_name": "DietPi_64",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/partition_setup.sh",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/partitions.json",
@@ -291,67 +296,6 @@
             "url": "http://dietpi.com/",
             "username": "root",
             "version": "v8.19"
-        },
-
-        {
-            "description": "An optimised Fedora remix which fully supports all RPi2/3 hardware (xfce)",
-            "download_size": 844258704,
-            "group": "General",
-            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/FedBerry.png",
-            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/marketing.tar",
-            "nominal_size": 4892,
-            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/os.json",
-            "os_name": "FedBerry",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/partition_setup.sh",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/partitions.json",
-            "password": "",
-            "release_date": "2018-03-22",
-            "supported_hex_revisions": "1040,1041,2082,20d3",
-            "supported_models": [
-                "Pi 2",
-                "Pi Compute Module 3",
-                "Pi 3"
-            ],
-            "supports_backup": true,
-            "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/FedBerry/boot.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/FedBerry/root.tar.xz"
-            ],
-            "url": "http://fedberry.org/",
-            "username": "",
-            "version": "27.1"
-        },
-        {
-            "description": "Gladys, your home assistant.",
-            "download_size": 672820496,
-            "group": "General",
-            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/Gladys.png",
-            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/marketing.tar",
-            "nominal_size": 3069,
-            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/os.json",
-            "os_name": "Gladys",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/partition_setup.sh",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/partitions.json",
-            "password": "raspberry",
-            "release_date": "2018-03-05",
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3",
-            "supported_models": [
-                "Pi Model",
-                "Pi 2",
-                "Pi Zero Rev",
-                "Pi Zero W Rev",
-                "Pi Compute Module Rev",
-                "Pi Compute Module 3",
-                "Pi 3"
-            ],
-            "supports_backup": true,
-            "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Gladys/boot.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Gladys/root.tar.xz"
-            ],
-            "url": "https://gladysproject.com",
-            "username": "pi",
-            "version": "3.8.0-rev2"
         },
         {
             "description": "An OS for Kids",
@@ -387,6 +331,85 @@
             "version": "Beta 4.0.0"
         },
         {
+            "description": "batocera.linux, the open source retro gaming console",
+            "download_size": 845268244,
+            "group": "Games",
+            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/batocera_RPi2.png",
+            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/marketing.tar",
+            "nominal_size": 3226,
+            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/os.json",
+            "os_name": "batocera_RPi2",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/partition_setup.sh",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/partitions.json",
+            "password": "linux",
+            "supported_hex_revisions": "1040,1041",
+            "supported_models": [
+                "Pi 2"
+            ],
+            "supports_backup": true,
+            "tarballs": [
+                "https://updates.batocera.org/rpi2/stable/last/boot.tar.xz"
+            ],
+            "url": "https://batocera.org",
+            "username": "root",
+            "version": "latest"
+        },
+        {
+            "description": "An optimised Fedora remix which fully supports all RPi2/3 hardware (xfce)",
+            "download_size": 844258704,
+            "group": "General",
+            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/FedBerry.png",
+            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/marketing.tar",
+            "nominal_size": 4892,
+            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/os.json",
+            "os_name": "FedBerry",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/partition_setup.sh",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/partitions.json",
+            "password": "",
+            "release_date": "2018-03-22",
+            "supported_hex_revisions": "1040,1041,2082,20d3",
+            "supported_models": [
+                "Pi 2",
+                "Pi Compute Module 3",
+                "Pi 3"
+            ],
+            "supports_backup": true,
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/FedBerry/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/FedBerry/root.tar.xz"
+            ],
+            "url": "http://fedberry.org/",
+            "username": "",
+            "version": "27.1"
+        },
+        {
+            "description": "A Plex Client for the Raspberry Pi computer",
+            "download_size": 133310252,
+            "group": "Media",
+            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/RasPlex_RPi2.png",
+            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/marketing.tar",
+            "nominal_size": 1024,
+            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/os.json",
+            "os_name": "RasPlex_RPi2",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/partition_setup.sh",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/partitions.json",
+            "password": "rasplex",
+            "release_date": "2021-10-02",
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 2",
+                "Pi 3 Model B Rev",
+                "Pi 3 Model A"
+            ],
+            "supports_backup": true,
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi2/boot.tar.xz"
+            ],
+            "url": "http://www.rasplex.com/",
+            "username": "root",
+            "version": "1.8.0b"
+        },
+        {
             "description": "The Swiss Army Knife of streaming music on the Raspberry Pi",
             "download_size": 160515412,
             "group": "Media",
@@ -420,61 +443,6 @@
         },
         {
             "description": "A Plex Client for the Raspberry Pi computer",
-            "download_size": 133428380,
-            "group": "Media",
-            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/RasPlex_RPi.png",
-            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/marketing.tar",
-            "nominal_size": 1024,
-            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/os.json",
-            "os_name": "RasPlex_RPi",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/partition_setup.sh",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/partitions.json",
-            "password": "rasplex",
-            "release_date": "2021-10-02",
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
-            "supported_models": [
-                "Pi Model",
-                "Pi Compute Module Rev",
-                "Pi Zero Rev",
-                "Pi Zero W Rev"
-            ],
-            "supports_backup": true,
-            "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi/boot.tar.xz"
-            ],
-            "url": "http://www.rasplex.com/",
-            "username": "root",
-            "version": "1.8.0b"
-        },
-        {
-            "description": "A Plex Client for the Raspberry Pi computer",
-            "download_size": 133310252,
-            "group": "Media",
-            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/RasPlex_RPi2.png",
-            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/marketing.tar",
-            "nominal_size": 1024,
-            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/os.json",
-            "os_name": "RasPlex_RPi2",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/partition_setup.sh",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/partitions.json",
-            "password": "rasplex",
-            "release_date": "2021-10-02",
-            "supported_hex_revisions": "1040,1041,2082",
-            "supported_models": [
-                "Pi 2",
-                "Pi 3 Model B Rev",
-                "Pi 3 Model A"
-            ],
-            "supports_backup": true,
-            "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi2/boot.tar.xz"
-            ],
-            "url": "http://www.rasplex.com/",
-            "username": "root",
-            "version": "1.8.0b"
-        },
-        {
-            "description": "A Plex Client for the Raspberry Pi computer",
             "download_size": 136066460,
             "group": "Media",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi3+/RasPlex_RPi3+.png",
@@ -499,38 +467,36 @@
             "version": "1.8.0b"
         },
         {
-            "description": "Volumio is an open source audiophile music player",
-            "download_size": 406274180,
-            "group": "Media",
-            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/Volumio.png",
-            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/marketing.tar",
-            "nominal_size": 2800,
-            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/os.json",
-            "os_name": "Volumio",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/partition_setup.sh",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/partitions.json",
-            "password": "volumio",
-            "release_date": "2022-01-24",
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0,3111",
+            "description": "Transform your Raspberry into a Commodore",
+            "download_size": 437399552,
+            "group": "Games",
+            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Combian/Combian.png",
+            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Combian/marketing.tar",
+            "nominal_size": 2070,
+            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Combian/os.json",
+            "os_name": "Combian",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Combian/partition_setup.sh",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Combian/partitions.json",
+            "password": "1234",
+            "release_date": "2018-09-30",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3",
             "supported_models": [
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero Rev",
                 "Pi Zero W Rev",
-                "Pi Compute Module",
-                "Pi 3",
-                "Pi 4"
+                "Pi Compute Module Rev",
+                "Pi Compute Module 3",
+                "Pi 3"
             ],
             "supports_backup": true,
-            "supports_usb_boot": false,
-            "supports_usb_root": false,
             "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Volumio/boot.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Volumio/volumio.tar.xz"
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Combian/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Combian/root.tar.xz"
             ],
-            "url": "https://volumio.org/",
-            "username": "volumio",
-            "version": "3.198"
+            "url": "https://cmaiolino.wordpress.com/",
+            "username": "root",
+            "version": "2.8.1"
         }
     ]
 }

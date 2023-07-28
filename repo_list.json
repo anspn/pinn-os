@@ -17,7 +17,7 @@
         },
         {
             "name": "Anspn",
-            "url": "http://raw.githubusercontent.com/anspn/pinn-os/master/os_list_v3.json"
+            "url": "https://raw.githubusercontent.com/anspn/pinn-os/master/os_list_v3.json"
         },
         {
             "name": "Sakaki",
