@@ -269,7 +269,7 @@
         },
         {
             "description": "Highly optimized minimal Debian OS (ARMv8 64-bit Bullseye)",
-            "download_size": 149126486,
+            "download_size": 122999112,
             "group": "Minimal",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/DietPi_64.png",
             "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/marketing.tar",
@@ -279,7 +279,7 @@
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/partition_setup.sh",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/partitions.json",
             "password": "dietpi",
-            "release_date": "2023-07-01",
+            "release_date": "2021-12-12",
             "supported_hex_revisions": "2082,20d3,20e0,3111,3112",
             "supported_models": [
                 "Pi Zero 2 W",
@@ -295,7 +295,7 @@
             ],
             "url": "http://dietpi.com/",
             "username": "root",
-            "version": "v8.19"
+            "version": "v7.9.3"
         },
         {
             "description": "An OS for Kids",
